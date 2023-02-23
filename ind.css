@@ -1,0 +1,77 @@
+h3{
+   text-shadow: 1px -1px 1px
+}
+
+.top_cat{
+   border: 0px solid black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.topcatpro{
+   border-radius: 5px;
+   border: 2px solid red;
+   width: 370px;
+   height: 320px;
+   float: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   box-shadow: 3px 3px 5px 4px gray;
+   transition: transform 1s;
+}
+
+.topcatpro:hover{
+   transform: scale(1.1);
+}
+
+.topcatpro img{
+   width:100%;
+}
+
+.checked{
+
+   color: orange;
+}
+
+.starr{
+   border: 0px solid red;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.title p{
+   text-align: center;
+   font-size: 18px;
+}
+
+.btn{
+   border: 0px solid black;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.btn input{
+   height: 40px;
+   width: 130px;
+   border-radius: 6px;
+   border: 0px;
+   background-color: orangered;
+   font-size: 20px;
+   color: white;
+   box-shadow: 2px 2px 5px 4px gray;
+}
+
+.btn input:hover{
+    background-color: gold;
+    color: black;
+    
+}
+
+.title b{
+   color: orangered;
+   font-size: 22px;
+}

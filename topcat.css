@@ -1,0 +1,43 @@
+.top_cat{
+   border: 0px solid black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.topcatpro{
+   border-radius: 6px;
+   border: 2px solid red;
+   width: 370px;
+   height: 269px;
+   float: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   box-shadow: 2px 2px 5px 4px gray;
+   transition: transform 1s;
+}
+
+.topcatpro:hover{
+   transform: scale(1.1);
+}
+
+.topcatpro img{
+   width:100%;
+}
+
+.checked{
+
+   color: orange;
+}
+
+.starr{
+   border: 0px solid red;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.title p{
+   text-align: center;
+   font-size: 18px;
+}
